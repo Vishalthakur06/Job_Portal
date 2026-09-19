@@ -7,7 +7,6 @@ app.use(
   cors({
     origin: [
       /https:\/\/job-portal-.*\.vercel\.app$/,
-      "https://job-portal-5kryc9xk4-vshal-thkurs-projects.vercel.app",
       "http://localhost:5173",
     ],
     credentials: true,
