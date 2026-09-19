@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { Context } from "../../main";
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.API_URL;
 
 function Jobs() {
   const [jobs, setJobs] = useState([]);

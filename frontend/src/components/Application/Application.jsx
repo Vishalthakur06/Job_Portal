@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 import toast from "react-hot-toast";
 import { useNavigate, useParams } from "react-router-dom";
 import { Context } from "../../main";
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.API_URL;
 
 const Application = () => {
   const [name, setName] = useState("");

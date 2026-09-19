@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { Context } from "../../main";
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.API_URL;
 
 const JobDetails = () => {
   const { id } = useParams();

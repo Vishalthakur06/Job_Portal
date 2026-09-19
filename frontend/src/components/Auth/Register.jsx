@@ -8,7 +8,7 @@ import { Link, Navigate } from "react-router-dom";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { Context } from "../../main";
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.API_URL;
 
 const Register = () => {
   const [email, setEmail] = useState("");

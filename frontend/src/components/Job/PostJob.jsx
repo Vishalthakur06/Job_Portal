@@ -3,7 +3,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { Context } from "../../main";
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.API_URL;
 const PostJob = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
